@@ -1,0 +1,11 @@
+#inputId{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius:  5px 5px 0 0;
+    border-bottom: 2px solid rgb(0, 122, 255);
+    background: rgba(196, 196, 196, 0.8);
+    outline: none;
+  }

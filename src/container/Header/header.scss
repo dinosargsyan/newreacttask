@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Mr+De+Haviland&display=swap');
+
+$east_sea: 'Mr De Haviland', cursive;
+.app-header{
+    position: fixed;
+    height: 64px;
+    width: 100%;
+    background-color: #375ABB;
+    left: 0;
+    top: 0;
+}
+.logoName{
+    text-align: left;
+    font-family: $east_sea;
+    color: #FB8F8A;
+}
