@@ -3,7 +3,6 @@ import Slack from '../assets/img/slack.jpg';
 import Twitter from '../assets/img/twitter.png';
 import Whatsapp from '../assets/img/whatsapp.png';
 
-
 export const productMockup = [
     {
         id: 1,

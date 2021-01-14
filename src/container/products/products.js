@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {productMockup} from '../../data-mockup/product-mockup';
 import Product from '../../components/Product/product';
 import './products.scss';
@@ -16,5 +17,4 @@ class Products extends React.Component {
         )
     }
 }
-
 export default Products;

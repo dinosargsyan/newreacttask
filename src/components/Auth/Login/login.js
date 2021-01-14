@@ -4,7 +4,6 @@ import Button from '../../button/button';
 import Input from '../../input/input';
 import './login.scss';
 
-
 class Login extends React.Component{
    state={
        email: '',
@@ -23,8 +22,7 @@ class Login extends React.Component{
        return(
             <div className="Login">
                 <Input type="email" placeholder="Email" onChange={this.onChangeEmail} value={this.state.email}> </Input>
-                <Input type="password" placeholder="Password" onChange={this.onChangePassword} value={this.state.password}> </Input>
-               
+                <Input type="password" placeholder="Password" onChange={this.onChangePassword} value={this.state.password}> </Input>              
                 <Button onClick={ this.login }>Login</Button>
             </div>
        )

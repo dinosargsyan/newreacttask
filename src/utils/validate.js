@@ -1,4 +1,4 @@
-import { isValidElement } from "react";
+import React, { isValidElement } from "react";
 
 export const validateName = (val) => {
       if (val.length > 0 && val == " ") {
@@ -6,7 +6,6 @@ export const validateName = (val) => {
           return errorText ;
       }
 }
-
 export const validateLastName = (val) => {
     if (val.length > 0 && val == " ") {
        const errorText = "Please write your Last Name"
